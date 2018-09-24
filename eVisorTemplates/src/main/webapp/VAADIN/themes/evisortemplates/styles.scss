@@ -1,0 +1,202 @@
+@import "addons.scss";
+@import "evisortemplates.scss";
+@import "richtexttoolbar.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in evisortemplates.scss */
+.evisortemplates {
+  @include addons;
+  @include evisortemplates;
+  @include richtexttoolbar;
+}
+
+.drop-area {
+     outline: 4px dashed #a4a4a2;
+     background: white;
+}
+
+.bordePunteado {
+	border: 2px dashed #a4a4a2;
+}
+
+.table-area-nested-cel {
+     border-right: 1px dashed #a4a4a2;
+     border-bottom: 1px dashed #a4a4a2;
+}
+
+.table-area-nested-celLast {
+     border-bottom: 1px dashed #a4a4a2;
+}
+
+.table-area-nested-celBottom {
+     border-right: 1px dashed #a4a4a2;
+}
+
+.table-area-cel {
+     border-left: 1px dashed #a4a4a2;
+     border-top: 1px dashed #a4a4a2;
+}
+
+.table-area {
+     border-right: 1px dashed #a4a4a2;
+     border-bottom: 1px dashed #a4a4a2;
+}
+
+.table-area-line-nested-cel {
+     border-right: 1px solid #a4a4a2;
+     border-bottom: 1px solid #a4a4a2;
+}
+
+.table-area-line-nested-celLast {
+     border-bottom: 1px solid #a4a4a2;
+}
+
+.table-area-line-nested-celBottom {
+     border-right: 1px solid #a4a4a2;
+}
+
+.table-area-line-cel {
+ 	 border-left: 1px solid #a4a4a2;
+     border-top: 1px solid #a4a4a2;
+}
+.table-area-line {
+     border-right: 1px solid #a4a4a2;
+     border-bottom: 1px solid #a4a4a2;
+}
+
+.v-splitpanel-hsplitter {
+	opacity:0.5;
+	filter:alpha(opacity=50);
+}
+
+.v-splitpanel-vsplitter {
+	opacity:0.5;
+	filter:alpha(opacity=50);
+}
+
+.ventanaTransparente {
+	margin-left: -2px !important; 
+	margin-top: -2px !important; 
+	opacity:0.5;
+	filter:alpha(opacity=50);
+	border:2px dashed #a4a4a2;
+}
+
+.textoTransparente {
+	cursor:move;
+	vertical-align: middle !important;
+	font: 400 17px/0.96 "Helvetica", "Open Sans", sans-serif !important;
+}
+
+.layout-margin-style{
+	margin-top: 1%;
+    margin-left: 1%;
+}
+
+.variables-margin_style{
+	margin-top: 1%;
+}
+
+.button-margin-style{
+	margin-left: 5%;
+}
+
+.button-margin-style2{
+	margin-left: 1.5%;
+	margin-top: 1.5%;
+	margin-right: 1.5%;
+	margin-bottom: 1.5%;
+}
+
+.dock_bottom {
+        position: fixed;
+        bottom: 0;
+        display: block;
+        left: 50%;
+        right: 50%;
+        margin-bottom: 20px;
+		margin-left: -230px;
+}
+
+.v-caption-dock_op {
+        position: fixed;
+        bottom: 0;
+        display: block;
+        left: 50%;
+        right: 50%;
+        margin-left: -60px;
+        color: #197de1;
+}
+
+.smallText{
+	font-size:12px;
+}
+
+.inputCodigo {
+	height: 25px !important;
+	padding:0px !important;
+	width:200px !important;
+}
+
+.inputCodigoLong {
+	height: 25px !important;
+	padding:0px !important;
+	width:600px !important;
+}
+
+.hideOverflow {
+	overflow:hidden;
+}
+
+.v-absolutelayout-margin {
+	overflow:visible !important;
+}
+
+.TextoAlineado{
+
+	vertical-align: middle !important;
+	color: #000000 !important;
+	font: 400 17px/0.96 "Helvetica", "Open Sans", sans-serif !important;
+}
+
+.v-absolutelayout-wrapper{
+ 	line-height: 100% !important;
+ }
+ 
+ .botonFijo {
+        position: fixed !important;
+        top: 40px;
+        right: 130px;
+        display: block;
+}
+
+ .botonSaveFijo {
+        position: fixed !important;
+        top: 40px;
+        right: 80px;
+        display: block;
+}
+
+ .botonLoadFijo {
+        position: fixed !important;
+        top: 40px;
+        right: 30px;
+        display: block;
+}
+
+.botonAddVariable {
+ 		position: fixed !important;
+        top: 40px;
+        right: max-width;
+        display: block;
+}
+
+.evisortemplates .v-upload .v-button
+{
+   margin-left: 100px !important;
+}
+
+.input.gwt-FileUpload 
+{
+	padding-left: 10px !important;
+}

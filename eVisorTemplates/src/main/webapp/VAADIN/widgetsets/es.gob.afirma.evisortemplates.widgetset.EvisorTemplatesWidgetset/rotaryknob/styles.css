@@ -1,0 +1,62 @@
+.v-rotaryknob {
+	border: none;
+	outline: none;
+}
+.v-rotaryknob.v-disabled {
+	filter: none;
+}
+.v-rotaryknob-knob {
+	background-color: transparent;
+	background-image: url(images/knob.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	width: 35px;
+	height: 35px;
+	border: none;
+}
+.v-rotaryknob-indicator {
+	background-color: transparent;
+	background-image: url(images/indicator.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	width: 9px;
+	height: 9px;
+	position: absolute;
+}
+.v-rotaryknob-value {
+	background:transparent;
+	color:#444444;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:9.5px;
+	font-weight:bold;
+	letter-spacing: 0.01em;
+	position: absolute;
+	text-align: center;
+	height: 12px;
+	z-index: 1;
+}
+
+/* Small style */
+.v-rotaryknob-small .v-rotaryknob-knob {
+	background-image: url(images/knob24.png);
+	width: 24px;
+	height: 24px;
+}
+.v-rotaryknob-small .v-rotaryknob-knob .v-rotaryknob-indicator {
+	background-image: url(images/indicator6.png);
+	width: 6px;
+	height: 6px;
+}
+
+/* Large style */
+.v-rotaryknob-large .v-rotaryknob-knob {
+	background-image: url(images/knob48.png);
+	width: 48px;
+	height: 48px;
+}
+.v-rotaryknob-large .v-rotaryknob-knob .v-rotaryknob-indicator {
+	background-image: url(images/indicator12.png);
+	width: 12px;
+	height: 12px;
+}
+
